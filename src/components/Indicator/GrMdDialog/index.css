@@ -1,0 +1,101 @@
+.md-content {
+    position: relative;
+    margin: 0 auto;
+}
+
+.md-content h3 {
+    margin: 0;
+    padding: 5px 10px;
+    text-align: left;
+    opacity: 0.8;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 0 0;
+}
+
+.md-content>div {
+    padding: 0;
+    margin: 0;
+}
+
+
+.md-show~.md-overlay {
+    opacity: 1;
+    display: block;
+}
+
+.md-overlay {
+    position: fixed;
+    width: 300%;
+    height: 300%;
+    display: none;
+    top: -100%;
+    left: -100%;
+    z-index: 1000;
+    opacity: 0;
+    background: rgb(15 19 58 / 85%);
+    transition: all 0.3s;
+}
+
+.md-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    z-index: 1001;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.md-show {
+    display: block;
+}
+
+.md-show~.md-modal {
+    display: block;
+}
+
+
+/* Effect 16:  Blur */
+.md-show.md-effect-16~.md-overlay {
+    /* background: rgb(15 19 58 / 85%); */
+    background: rgba(16, 16, 16, 0.80);
+}
+
+.md-show.md-effect-16~.container {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.md-effect-16 .md-content {
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    transform: translateY(-5%);
+    opacity: 0;
+}
+
+.md-show.md-effect-16~.container,
+.md-effect-16 .md-content {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.md-show.md-effect-16 .md-content {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.amplify {
+    box-sizing: border-box;
+    transition: .15s;
+}
+
+.amplify:hover {
+    transition: .15s;
+    color: rgba(250,255,0,0.7);
+}

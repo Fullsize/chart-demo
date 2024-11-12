@@ -1,0 +1,10 @@
+# 设置文件名大小写敏感
+* case-sensitive=true
+# Set default behavior to automatically normalize line endings.
+* text=auto
+# 文件结尾
+*.js   text  eol=lf
+*.ts   text  eol=lf
+*.jsx  text  eol=lf
+*.tsx  text  eol=lf
+*.json text  eol=lf

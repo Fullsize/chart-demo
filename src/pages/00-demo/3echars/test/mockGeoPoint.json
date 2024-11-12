@@ -1,0 +1,38 @@
+[
+    {
+        "city_code": "520100",
+        "region_code": "520100_C_95",
+        "region_procode": "520100",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "val": 302.5,
+        "area_id": "520100_C_95",
+        "region_name": "贵阳印象城",
+        "lng": "106.6188812",
+        "lat": "26.62055969"
+    },
+    {
+        "city_code": "520100",
+        "region_code": "B035300683",
+        "region_procode": "520100",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "val": 311.7,
+        "area_id": "B035300683",
+        "region_name": "世纪新天地",
+        "lng": "106.7117738",
+        "lat": "26.58145656"
+    },
+    {
+        "city_code": "520100",
+        "region_code": "B0FFGGD7HL",
+        "region_procode": "520100",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "val": 315.3,
+        "area_id": "B0FFGGD7HL",
+        "region_name": "时代广场(中华中路)",
+        "lng": "106.70918",
+        "lat": "26.58249897"
+    }
+]

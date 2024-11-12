@@ -1,0 +1,7 @@
+.tools {
+    display: flex;
+    cursor: pointer;
+    z-index: 1000;
+    width: 50px;
+    justify-content: space-between;
+}

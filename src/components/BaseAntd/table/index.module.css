@@ -1,0 +1,7 @@
+.table th:global(.ant-table-cell) {
+    text-align: center !important;
+    /* padding: 0 !important; */
+}
+.table td:global(.ant-table-cell) {
+    padding: 8px 10px !important;
+}

@@ -1,0 +1,84 @@
+.ind_text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ind_text>span {
+    color: #ffaa3a;
+    padding: 0 5px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: D-DIN
+}
+
+
+.ind_text_re>span {
+    color: #ffaa3a;
+    padding:0 6px;
+    font-weight: bold;
+    font-family: D-DIN
+}
+
+
+.ind_text_re {
+    color: #FFF;
+    font-size: 14px;
+    min-height: fit-content;
+    margin: 10px;
+}
+
+
+.ind_text_re::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 10px;
+    left: 10px;
+    transform: translate(-10px, -10px);
+    background-image: url('/assets/images/corner.png');
+}
+
+.ind_text_re::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 0px;
+    right: 0px;
+    transform: translate(-10px, -10px);
+    transform: rotate(90deg);
+    background-image: url('/assets/images/corner.png');
+}
+
+.corner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* border: 1px solid red; */
+}
+
+.corner::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    bottom: 0px;
+    left: 0px;
+    transform: translate(0px, 0px);
+    transform: rotate(-90deg);
+    background-image: url('/assets/images/corner.png');
+}
+
+.corner::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    bottom: 0px;
+    right: 0px;
+    transform: translate(0px, 0px);
+    transform: rotate(180deg);
+    background-image: url('/assets/images/corner.png');
+}

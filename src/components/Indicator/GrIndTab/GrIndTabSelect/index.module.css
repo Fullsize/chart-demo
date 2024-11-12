@@ -1,0 +1,52 @@
+.nav-select-box {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-select-box svg {
+    transition: 0.2s ease;
+}
+
+.nav-select-list{
+    margin-top: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #232b38;
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(64, 82, 114);
+}
+.nav-select-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-select-list ul > li  {
+    cursor: pointer;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:6px;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.nav-select-list ul > li:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    background: linear-gradient( 124deg, rgba(20,136,170,0.51) 0%, rgba(38,59,75,0) 100%);
+    box-shadow: 0px 10px 20px 0px rgba(38,52,112,0.05);
+    /* border-radius: 4px; */
+    border: 1px solid #fff;
+    border-image: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(90, 142, 169, 1)) 1 1;
+    color: #fff !important;
+}
+
+@keyframes HideList {
+    from {
+        transform: scaleY(1);
+    }
+    to {
+        transform: scaleY(0);
+    }
+}

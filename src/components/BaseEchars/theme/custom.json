@@ -1,0 +1,94 @@
+{
+    "tooltip": {
+        "textStyle":{
+            "fontSize": 16
+        },
+        "appendToBody":true
+    },
+    "categoryAxis": {
+        "axisLabel": {
+            "show": true,
+            "fontSize": 14,
+            "fontWeight": 500
+        }
+    },
+    "valueAxis": {
+        "axisLabel": {
+            "show": true,
+            "fontSize": 14,
+            "fontWeight": 500
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "type": "dashed"
+            }
+        }
+    },
+    "textStyle": {
+        "fontSize": 16,
+        "color": "rgba(216,240,255,1)"
+    },
+    "legend": {
+        "pageIconColor":"rgba(216,240,255,1)",
+        "pageIconInactiveColor":"rgba(216,240,255,0.25)",
+        "pageTextStyle":{
+            "color": "rgba(216,240,255,1)"
+        },
+        "textStyle": {
+            "fontSize": 14,
+            "fontWeight": 500
+        }
+    },
+    "line": {
+        "lineStyle": {
+            "shadowColor": "rgba(0, 0, 0, 0.4)",
+            "shadowBlur": 3,
+            "shadowOffsetY": 10
+        }
+    },
+    "bar": {
+        "barMaxWidth": 10,
+        "itemStyle": {
+            "borderRadius": [100, 100, 0, 0]
+        },
+        "showBackground":true,
+        "backgroundStyle": {
+            "show":true,
+            "color": "rgba(255, 255, 255, 0.05)",
+            "borderRadius": [100, 100, 0, 0]
+        }
+    },
+    "pie": {
+        "label": {
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "color": "rgba(216,240,255,1)",
+            "show": false,
+            "position": "center"
+        },
+        "selectedOffset": 8,
+        "emphasis": {
+            "label": {
+                "show": false,
+                "formatter": "{d}%"
+            },
+            "scaleSize": 5
+        },
+        "select": {
+            "label": {
+                "show": true,
+                "formatter": "{d}%"
+            }
+        },
+        "itemStyle": {
+            "borderRadius": 2,
+            "borderWidth": 0
+        }
+    }, 
+    "sankey": {
+        "label": {
+            "color": "#D8F0FF"
+        }
+    }
+}

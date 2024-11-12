@@ -1,0 +1,71 @@
+{
+    "backgroundColor": "rgba(255,255,255,1)",
+    "categoryAxis": {
+        "axisLabel": {
+            "show": true,
+            "fontSize": 14,
+            "fontWeight": 500
+        }
+    },
+    "valueAxis": {
+        "axisLabel": {
+            "show": true,
+            "fontSize": 14,
+            "fontWeight": 500
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "type": "dashed"
+            }
+        }
+    },
+    "textStyle": {
+        "color": "#accdee"
+    },
+    "legend": {
+        "textStyle": {
+            "fontSize": 12,
+            "fontWeight": 500
+        }
+    },
+    "bar": {
+        "barMaxWidth": 10,
+        "itemStyle": {
+            "borderRadius": [100, 100, 0, 0]
+        },
+        "showBackground":true,
+        "backgroundStyle": {
+            "show":true,
+            "color":"rgba(255,255,255,0.1)",
+            "borderRadius":100
+        }
+    },
+    "pie": {
+        "label": {
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "color": "rgba(38,52,112,0.8)",
+            "show": false,
+            "position": "center"
+        },
+        "selectedOffset": 5,
+        "emphasis": {
+            "label": {
+                "show": false,
+                "formatter": "{d}%"
+            },
+            "scaleSize": 5
+        },
+        "select": {
+            "label": {
+                "show": true,
+                "formatter": "{d}%"
+            }
+        },
+        "itemStyle": {
+            "borderRadius": 2,
+            "borderWidth": 0
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    background-image: url("./bg_nav_third.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.nav>div {
+    cursor: pointer;
+    padding: 7px 34px;
+    position: relative;
+    transition: all 0.9s;
+}
+.nav .active_select_nav {
+    background-image: url(/assets/images/nav/bg_active.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.nav>div:hover {
+    background-image: url(/assets/images/nav/bg_active.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav>div::after{
+    content: "";
+    width: 2px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+}
+.nav .active_select_nav::after{
+    display: none;
+}
+.bottom_box{
+    position: absolute;
+    width: calc(100% - 40px);
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(-10px);
+    height: 2px;
+    box-shadow: 0px 2px 4px 0px rgba(6,22,27,0.71);
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient( 270deg, rgba(57,74,86, .18) 0% , rgba(255,255,255, .18) 54%, rgba(57,74,86,.18) 100%);
+
+}
+.bottom_box::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+
+}
+.bottom_box img{
+    width: 25px;
+    height: 25px;
+    transform: translateY(-12px);
+}

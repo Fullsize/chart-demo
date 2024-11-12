@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 33备份 3</title>
+    <defs>
+        <linearGradient x1="34.3811744%" y1="7.26253945%" x2="52.9314145%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FEFAEB" offset="0%"></stop>
+            <stop stop-color="#FADB7A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F9DDA9" offset="0%"></stop>
+            <stop stop-color="#FBEEBB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.1253087%" y1="9.5838967%" x2="70.1354554%" y2="92.1284095%" id="linearGradient-3">
+            <stop stop-color="#F1D5A7" offset="0%"></stop>
+            <stop stop-color="#E39C1F" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="12 3.55890839 19.4230749 7.84462268 19.4230749 16.4160513 12 20.7017655 4.57692511 16.4160513 4.57692511 7.84462268"></polygon>
+        <filter x="-2.9%" y="-2.9%" width="105.8%" height="105.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.768536112   0 0 0 0 0.280631543   0 0 0 0 0.0310181314  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="36.4152696%" y1="22.3864155%" x2="18.5324666%" y2="83.9530997%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0.282334121" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="经济监测-地区生产总值" transform="translate(-40.000000, -1526.000000)">
+            <g id="编组-9备份-9" transform="translate(20.000000, 1362.000000)">
+                <g id="行业增加值" transform="translate(0.000000, 40.000000)">
+                    <g id="编组-33备份-3" transform="translate(20.000000, 124.000000)">
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                        <polygon id="多边形" stroke="url(#linearGradient-1)" stroke-width="2" points="12 1.84462268 20.9076899 6.98747982 20.9076899 17.2731941 12 22.4160513 3.09231013 17.2731941 3.09231013 6.98747982"></polygon>
+                        <path d="M12,3.27911581 L19.6653824,7.70472639 L19.6653824,16.5559475 L12,20.9815581 L4.33461762,16.5559475 L4.33461762,7.70472639 L12,3.27911581 Z" id="多边形" stroke="url(#linearGradient-2)"></path>
+                        <g id="多边形">
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        </g>
+                        <path d="M12,2.75950056 L20.1153824,7.44491877 L20.1153824,16.8157552 L12,21.5011734 L3.88461762,16.8157552 L3.88461762,7.44491877 L12,2.75950056 Z" id="多边形" stroke="#FFFFFF" stroke-width="0.1"></path>
+                        <polygon id="路径-6" fill="url(#linearGradient-6)" points="2.24123096 6.49711694 12.0012021 0.857142857 21.7509922 6.49711694 2.24123096 17.7646471"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

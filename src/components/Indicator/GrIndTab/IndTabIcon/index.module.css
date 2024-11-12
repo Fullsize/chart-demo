@@ -1,0 +1,36 @@
+.contaner {
+    position: relative;
+    display: flex;
+    min-width: 140px;
+    gap: 20px;
+}
+.item {
+    position: relative;
+    height: 24px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 16px;
+    border: 1px solid #8AA9DC;
+    border-left: 0;
+    box-sizing: border-box;
+}
+.item.active{
+    background: linear-gradient( 73deg, #2584A5 0%, #055272 100%);
+    border-color: #AFFBFF;
+}
+.item>img{
+    height: 26px;
+}
+.text {
+    font-size: 14px;
+    color: #8AA9DC;
+    padding: 0px 10px 0px 6px;
+    box-sizing: border-box;
+}
+
+.active .text{
+    color: #FFFFFF;
+}

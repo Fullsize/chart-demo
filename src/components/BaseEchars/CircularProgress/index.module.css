@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40%;
+    height: 40%;
+    /* z-index: -1; */
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: url('./assets/images/pie/bg.webp') no-repeat left top / 100% 100%; */
+}
+
+.all .info {
+    left: 30%;
+    top: 50%;
+    width: 30%;
+    height: 30%;
+}

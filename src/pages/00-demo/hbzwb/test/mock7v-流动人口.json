@@ -1,0 +1,35 @@
+[
+    {
+        "val": 527.0,
+        "val1": 25.0,
+        "unit_name": "万人",
+        "unit_name1": "%",
+        "region_code": 130000,
+        "time_code": 20231229,
+        "time_name": 20231229,
+        "index_code_full_cname": "出行人数",
+        "index_code_full_cname1": "环比增速"
+    },
+    {
+        "val": 339.87,
+        "val1": 27.7,
+        "unit_name": "万人",
+        "unit_name1": "%",
+        "region_code": 130000,
+        "time_code": 20231229,
+        "time_name": 20231229,
+        "index_code_full_cname": "跨省出行人数",
+        "index_code_full_cname1": "环比增速"
+    },
+    {
+        "val": 187.0,
+        "val1": 20.2,
+        "unit_name": "万人",
+        "unit_name1": "%",
+        "region_code": 130000,
+        "time_code": 20231229,
+        "time_name": 20231229,
+        "index_code_full_cname": "省内跨市出行人数",
+        "index_code_full_cname1": "环比增速"
+    }
+]

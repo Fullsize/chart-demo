@@ -1,0 +1,83 @@
+[
+    {
+        "region_code": "520100",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "贵阳",
+        "val": 929.4,
+        "lng": 106.713478,
+        "lat": 26.578343
+    },
+    {
+        "region_code": "522600",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "黔东南州",
+        "val": 338.9,
+        "lng": 107.977488,
+        "lat": 26.583352
+    },
+    {
+        "region_code": "520200",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "六盘水",
+        "val": 292.3,
+        "lng": 104.846743,
+        "lat": 26.584643
+    },
+    {
+        "region_code": "522700",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "黔南州",
+        "val": 283.6,
+        "lng": 107.517156,
+        "lat": 26.258219
+    },
+    {
+        "region_code": "520300",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "遵义",
+        "val": 263.5,
+        "lng": 106.937265,
+        "lat": 27.706626
+    },
+    {
+        "region_code": "522300",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "黔西南州",
+        "val": 251.1,
+        "lng": 104.897971,
+        "lat": 25.08812
+    },
+    {
+        "region_code": "520500",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "毕节",
+        "val": 247.9,
+        "lng": 105.28501,
+        "lat": 27.301693
+    },
+    {
+        "region_code": "520400",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "安顺",
+        "val": 219.9,
+        "lng": 105.932188,
+        "lat": 26.245544
+    },
+    {
+        "region_code": "520600",
+        "index_code_full_cname": "商圈客流",
+        "unit_name": "万人次",
+        "region_name": "铜仁",
+        "val": 168.8,
+        "lng": 109.191555,
+        "lat": 27.718346
+    }
+]

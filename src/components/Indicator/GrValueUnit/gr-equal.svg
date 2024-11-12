@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>持平</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="经济监测系-首页" transform="translate(-265.000000, -355.000000)">
+            <g id="编组-9" transform="translate(28.000000, 209.000000)">
+                <g id="编组-4" transform="translate(22.000000, 140.000000)">
+                    <g id="编组-6" transform="translate(12.000000, 1.000000)">
+                        <g id="持平" transform="translate(203.000000, 5.000000)">
+                            <rect id="矩形" x="0" y="0" width="12" height="12"></rect>
+                            <path d="M0.306768047,8.67723444 L10.4205294,8.67723444 C10.4205294,8.67723444 11.5168821,9.48931036 10.4205294,10 L0.306768047,10 C0.306768047,10 -0.383460059,9.31628744 0.306768047,8.67723444 Z M12,4.18407815 L10.3249658,5.77194958 L8.64730253,7.36539249 L8.64730253,1 L10.3249658,2.58787143 L12,4.18412202 L12,4.18407815 Z" id="形状" fill="#FEDE48" fill-rule="nonzero"></path>
+                            <polygon id="路径" fill="#FEDE48" fill-rule="nonzero" points="0 3 11 3 11 5 0 5"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

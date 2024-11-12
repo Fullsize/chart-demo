@@ -1,0 +1,22 @@
+[
+    {
+        "val": 4455.08,
+        "val1": -17.9,
+        "unit_name": "万人次",
+        "unit_name1": "%",
+        "region_code": "130000",
+        "index_code_full_cname": "月访客量绝对值",
+        "index_code_full_cname1": "环比",
+        "time_name": "202311"
+    },
+    {
+        "val": 999.4,
+        "val1": -20.5,
+        "unit_name": "万人次",
+        "unit_name1": "%",
+        "region_code": "130000",
+        "index_code_full_cname": "夜间访客量绝对值",
+        "index_code_full_cname1": "环比",
+        "time_name": "202311"
+    }
+]

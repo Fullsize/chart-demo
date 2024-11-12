@@ -1,0 +1,22 @@
+.trsx_card1 {
+    cursor: pointer;
+    width:100%;
+    min-width: 100px;
+    background-image: url("./image/default_tr3_bg.png");
+    background-size: 100% 100%;
+    height: 75px;
+    gap: 10px;
+}
+.trsx_card2 { 
+    /* height: 100%; */
+    gap: 10px;
+    min-width: 100px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/* .trsx_card1:hover span, .trsx_card2:hover span{
+    color: #00FFFF !important;
+} */
+.trsx_card_selected, .trsx_card_selected span {
+    color: #00FFFF !important;
+}

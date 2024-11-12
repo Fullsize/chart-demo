@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="143px" viewBox="0 0 143 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 8</title>
+    <defs>
+        <linearGradient x1="50%" y1="5.82151041%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#313E51" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="99.9813907%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="80.3302442%" x2="50%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#2085A1" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#A2E4FF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="80.8559137%" x2="50%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#00C7FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0096FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M72,111 C92.4345357,111 109,94.4345357 109,74 C109,53.5654643 92.4345357,37 72,37 C51.5654643,37 35,53.5654643 35,74 C35,94.4345357 51.5654643,111 72,111 Z" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="74" height="74" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#0096FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M72,116 C95.1959595,116 114,97.1959595 114,74 C114,50.8040405 95.1959595,32 72,32 C48.8040405,32 30,50.8040405 30,74 C30,97.1959595 48.8040405,116 72,116 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="84" height="84" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <linearGradient x1="50%" y1="30.3004073%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#BDBDBD" offset="0%"></stop>
+            <stop stop-color="#007BD2" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M69.5,117 C92.9721019,117 112,97.9721019 112,74.5 C112,51.0278981 92.9721019,32 69.5,32 C46.0278981,32 27,51.0278981 27,74.5 C27,97.9721019 46.0278981,117 69.5,117 Z" id="path-10"></path>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="85" height="85" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <linearGradient x1="50%" y1="1.10085227%" x2="50%" y2="100%" id="linearGradient-12">
+            <stop stop-color="#AAECFF" stop-opacity="0.43590711" offset="0%"></stop>
+            <stop stop-color="#3F6C8C" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.8305144%" x2="50%" y2="87.8263055%" id="linearGradient-13">
+            <stop stop-color="#FFFFFF" stop-opacity="0.326649913" offset="0%"></stop>
+            <stop stop-color="#528593" stop-opacity="0.439521416" offset="22.076534%"></stop>
+            <stop stop-color="#0096FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="综合监测" transform="translate(-79.1287, -285)">
+            <g id="编组-10备份-4" transform="translate(74, 285)">
+                <g id="编组-8" transform="translate(5.1287, 0)">
+                    <circle id="椭圆形" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" cx="72" cy="73" r="32.5"></circle>
+                    <use id="椭圆形" stroke="url(#linearGradient-3)" mask="url(#mask-5)" stroke-dasharray="1" xlink:href="#path-4"></use>
+                    <use id="椭圆形" stroke="url(#linearGradient-6)" mask="url(#mask-8)" stroke-width="2" stroke-dasharray="1,32" xlink:href="#path-7"></use>
+                    <use id="椭圆形" stroke="url(#linearGradient-9)" mask="url(#mask-11)" stroke-width="6" stroke-dasharray="1,12" xlink:href="#path-10"></use>
+                    <circle id="椭圆形" stroke="url(#linearGradient-12)" cx="72" cy="72" r="48.5"></circle>
+                    <circle id="椭圆形" stroke="url(#linearGradient-13)" cx="71.5" cy="71.5" r="71"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

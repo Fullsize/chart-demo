@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="29px" viewBox="0 0 240 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00FFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#00FFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M49,25 L203,25 C204.104569,25 205,25.8954305 205,27 C205,28.1045695 204.104569,29 203,29 L49,29 C47.8954305,29 47,28.1045695 47,27 C47,25.8954305 47.8954305,25 49,25 Z" id="path-2"></path>
+        <filter x="-1.9%" y="-75.0%" width="103.8%" height="250.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="35" y="25" width="8" height="4" rx="2"></rect>
+        <filter x="-37.5%" y="-75.0%" width="175.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-1724.000000, -319.000000)">
+            <g id="component/top_nav_01" transform="translate(1724.000000, 319.000000)">
+                <path d="M40.8840335,0 L199.115967,0 C202.747638,-1.31016251e-14 206.093844,1.96891884 207.857539,5.14357069 L212.5,13.5 C214.937246,17.8870437 213.356624,23.4192239 208.96958,25.8564703 C207.619637,26.6064386 206.100834,27 204.556555,27 L35.4434452,27 C30.4248476,27 26.3564703,22.9316228 26.3564703,17.9130251 C26.3564703,16.368746 26.7500318,14.8499428 27.5,13.5 L32.1424607,5.14357069 C33.9061562,1.96891884 37.2523622,4.21984087e-15 40.8840335,0 Z" id="Rectangle" fill="url(#linearGradient-1)" transform="translate(120.000000, 13.500000) scale(1, -1) translate(-120.000000, -13.500000) "></path>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#00FFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use fill="#00FFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

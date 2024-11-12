@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.item {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-progress {
+    width: 100%;
+    align-items: end;
+}
+
+.circular {
+    width: 16px;
+    height: 8px;
+    margin-right: 10px;
+    border-radius: 1px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.disabled {
+    color: #999;
+}

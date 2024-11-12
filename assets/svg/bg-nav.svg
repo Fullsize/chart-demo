@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="29px" viewBox="0 0 240 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00FFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#00FFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#007BFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#007BFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M29,25 L183,25 C184.104569,25 185,25.8954305 185,27 C185,28.1045695 184.104569,29 183,29 L29,29 C27.8954305,29 27,28.1045695 27,27 C27,25.8954305 27.8954305,25 29,25 Z" id="path-3"></path>
+        <filter x="-1.9%" y="-75.0%" width="103.8%" height="250.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="15" y="25" width="8" height="4" rx="2"></rect>
+        <filter x="-37.5%" y="-75.0%" width="175.0%" height="250.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-1974.000000, -319.000000)">
+            <g id="component/top_nav_01" transform="translate(1974.000000, 319.000000)">
+                <g id="Group" transform="translate(20.000000, 0.000000)">
+                    <path d="M20.8840335,0 L179.115967,0 C182.747638,-1.31016251e-14 186.093844,1.96891884 187.857539,5.14357069 L192.5,13.5 C194.937246,17.8870437 193.356624,23.4192239 188.96958,25.8564703 C187.619637,26.6064386 186.100834,27 184.556555,27 L15.4434452,27 C10.4248476,27 6.35647033,22.9316228 6.35647033,17.9130251 C6.35647033,16.368746 6.75003176,14.8499428 7.5,13.5 L12.1424607,5.14357069 C13.9061562,1.96891884 17.2523622,4.21984087e-15 20.8840335,0 Z" id="Rectangle" fill="url(#linearGradient-2)" transform="translate(100.000000, 13.500000) scale(1, -1) translate(-100.000000, -13.500000) "></path>
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#007BFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#007BFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

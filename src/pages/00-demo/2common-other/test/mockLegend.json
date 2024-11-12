@@ -1,0 +1,41 @@
+[
+    {
+        "index_code": "ZB000601",
+        "group_code": "F0201",
+        "type_code": "LX0201",
+        "time_name": "2021",
+        "time_code": 2021,
+        "val": 2.6,
+        "index_full_code": "F0201ZB000601LX0201",
+        "index_code_full_cname": "第一产业就业人数",
+        "unit_name": "%",
+        "index_code_full_type_name": "期末值",
+        "group_name": "第一产业"
+    },
+    {
+        "index_code": "ZB000601",
+        "group_code": "F0202",
+        "type_code": "LX0201",
+        "time_name": "2021",
+        "time_code": 2021,
+        "val": 6.2,
+        "index_full_code": "F0202ZB000601LX0201",
+        "index_code_full_cname": "第二产业就业人数",
+        "unit_name": "%",
+        "index_code_full_type_name": "期末值",
+        "group_name": "第二产业"
+    },
+    {
+        "index_code": "ZB000601",
+        "group_code": "F0203",
+        "type_code": "LX0201",
+        "time_name": "2021",
+        "time_code": 2021,
+        "val": 5.5,
+        "index_full_code": "F0203ZB000601LX0201",
+        "index_code_full_cname": "第三产业就业人数",
+        "unit_name": "%",
+        "index_code_full_type_name": "期末值",
+        "group_name": "第三产业"
+    }
+]

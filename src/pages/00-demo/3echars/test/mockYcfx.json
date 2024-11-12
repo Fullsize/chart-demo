@@ -1,0 +1,82 @@
+[
+    {
+        "time_code": "202302",
+        "time_name": "202302",
+        "value": "887.31",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202303",
+        "time_name": "202303",
+        "value": "886.33",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202304",
+        "time_name": "202304",
+        "value": "896.19",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202305",
+        "time_name": "202305",
+        "value": "904.96",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202306",
+        "time_name": "202306",
+        "value": "893.25",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202307",
+        "time_name": "202307",
+        "value": "904.95",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202308",
+        "time_name": "202308",
+        "value": "893.55",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202309",
+        "time_name": "202309",
+        "value": "891.16",
+        "unit": "万元",
+        "type": 0,
+        "type_name": "实际值"
+    },
+    {
+        "time_code": "202309",
+        "time_name": "202309",
+        "value": "891.16",
+        "unit": "万元",
+        "type": 1,
+        "type_name": "预测值"
+    },
+    {
+        "time_code": "202310",
+        "time_name": "202310",
+        "value": "895.64",
+        "unit": "万元",
+        "type": 1,
+        "type_name": "预测值"
+    }
+]

@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'D-DIN';
+    src: url('/assets/fonts/D-DIN-Bold.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'YouSheBiaoTiHei';
+    src: url('/assets/fonts/YouSheBiaoTiHei.ttf') format('woff');
+}
+
+/* @font-face {
+  font-family: '思源黑体';
+  src: url('/assets/fonts/SOURCEHANSANSCN-MEDIUM.OTF') format('truetype')
+} */
+
+@font-face {
+    font-family: 'PangMenZhengDaoBiao';
+    src: url('/assets/fonts/PangMenZhengDaoBiaoTiTi-1.ttf') format('truetype');
+}
+
+body,
+html,
+#app {
+    width: 100%;
+    height: 100%;
+    /* background-color: #11185a; */
+    overflow: auto hidden;
+    color: #c5d8f1;
+}
+
+body {
+    overflow: hidden;
+}
+#app {
+    background-image: url('/assets/images/bg.jpg');
+    background-size: cover;
+    /* font-family: 思源黑体; */
+}
+
+#app a {
+    color: inherit;
+    text-decoration: none;
+    text-underline-offset: 5;
+    cursor: pointer;
+}
+
+#app .link-to-jc * {
+    color: rgb(35, 255, 249) !important;
+}
+
+#app a:hover * {
+    color: #faff00b3 !important;
+}
+
+#app a:-webkit-any-link:active * {
+    color: #ff6000b3 !important;
+}
+
+/* https://github.com/ant-design/ant-design/issues/47592#issuecomment-1972831827 */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #405468;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1d2d3e;
+    border-radius: 8px;
+}
+
+.ant-table-thead .ant-table-cell{
+    text-wrap: nowrap;
+}
+/* 定义步骤进度条每个圆环的颜色 因为antd 不支持自定义 通过css 权重来进行覆盖 */
+.step-color .ant-progress-inner .ant-progress-circle .ant-progress-circle-path:nth-child(1){
+    stroke: #2AFBA1
+}
+.step-color .ant-progress-inner .ant-progress-circle .ant-progress-circle-path:nth-child(2){
+    stroke: #F5D53F
+}
+.step-color .ant-progress-inner .ant-progress-circle .ant-progress-circle-path:nth-child(3){
+    stroke: #FE5101
+}
+.step-color .ant-progress-inner .ant-progress-circle .ant-progress-circle-path:nth-child(4){
+    stroke: #CE1112
+}
+.step-color .ant-progress-inner .ant-progress-circle .ant-progress-circle-path:nth-child(5){
+    stroke: #980419
+}
+.step-color .ant-progress-inner .ant-progress-circle .ant-progress-circle-path:nth-child(6){
+    stroke: #6D0321
+}

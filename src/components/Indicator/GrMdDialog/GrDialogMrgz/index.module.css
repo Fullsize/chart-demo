@@ -1,0 +1,13 @@
+.close{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background-image: url(./close.png);
+    right: 38px;
+    top: 28px;
+    cursor: pointer;
+}
+.close:hover{
+    background-image: url(./close_h.png);
+
+}

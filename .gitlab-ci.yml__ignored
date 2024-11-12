@@ -1,0 +1,45 @@
+# .gitlab-ci.yml
+
+image: node:20-alpine
+
+stages:
+    - test
+    - build
+      # - deploy
+
+before_script:
+    - npm config set registry https://registry.npmmirror.com/
+    - npm install pnpm -g
+    - pnpm config set store-dir .pnpm-store
+    - pnpm i --no-frozen-lockfile
+
+cache:
+    paths:
+        - .pnpm-store
+    key:
+        files:
+            - package.json
+
+build:
+    stage: build
+    script:
+        - pnpm run build
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+test:
+    stage: test
+    script:
+        - pnpm run lint
+    allow_failure: true
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+# tsc lint
+lint:
+    stage: test
+    script:
+        - pnpm run tsc
+    allow_failure: true
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "merge_request_event"

@@ -1,0 +1,55 @@
+[
+    {
+
+        "centroid": [
+            "120.244326",
+            "29.713662"
+        ],
+        "cityCode": "330681",
+        "data": [
+            {
+                "name": "地方一般公共预算收入",
+                "unit": "万元",
+                "value": 95914
+            }
+        ],
+        "level": 3,
+        "treeid": "admin",
+        "name": "诸暨市",
+        "treeId": "admin"
+    },
+    {
+        "name": "上虞区",
+        "centroid": [
+            "120.874185",
+            "30.016769"
+        ],
+        "cityCode": "330604",
+        "data": [
+            {
+                "name": "地方一般公共预算收入",
+                "unit": "万元",
+                "value": 31861
+            }
+        ],
+        "level": 3,
+        "treeId": "admin"
+    },
+    {
+        "name": "新昌县",
+        "centroid": [
+            "120.905665",
+            "29.501205"
+        ],
+        "cityCode": "330624",
+        "data": [
+            {
+                "name": "地方一般公共预算收入",
+                "unit": "万元",
+                "value": 71861
+            }
+        ],
+        "level": 3,
+        "treeId": "admin"
+    }
+]
