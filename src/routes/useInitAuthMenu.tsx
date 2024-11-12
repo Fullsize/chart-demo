@@ -1,8 +1,8 @@
 /*
  * @Author: sungy
  * @Date: 2023-08-16 16:21:08
- * @LastEditors: sungy
- * @LastEditTime: 2024-10-23 11:51:26
+ * @LastEditors: Fullsize
+ * @LastEditTime: 2024-11-12 16:31:27
  * @Description: 河北路由入口
  */
 
@@ -79,7 +79,7 @@ const useInitAuthMenu = () => {
                     getAuthMenuByPath: (p: string) => {
                         return markR[p];
                     },
-                    authPath: [...routerBase, ...routerDemo, ...autoPath.children],
+                    authPath: [...routerBase, ...routerDemo],
                 });
             }
         }

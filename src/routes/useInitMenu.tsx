@@ -44,7 +44,7 @@ const useInitMenu = () => {
                 }
                 return navPath;
             },
-            authPath: [...routerBase, ...autoPath.children, ...developmentRouter],
+            authPath: [...routerBase, ...autoPath.children, ...routerDemo],
         });
     }, []);
     return userAuthMenu;
