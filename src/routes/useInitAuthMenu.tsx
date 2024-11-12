@@ -12,6 +12,7 @@ import { useEcApiLdgGet } from '@/service';
 import useStore from '@/store';
 
 import routerSx from '@/routes/routerSx';
+import routerDemo from '@/routes/routerDemo';
 import { useLocation } from 'react-router-dom';
 import { useDebounce } from 'react-use';
 import routerBase from './routerBase';
@@ -72,13 +73,13 @@ const useInitAuthMenu = () => {
                         return markR[p] ? true : false;
                     },
                     getNavByPath: (p: string) => {
-                        const navPath: any = [...routerSx];
+                        const navPath: any = [...routerSx, ...routerDemo];
                         return navPath;
                     },
                     getAuthMenuByPath: (p: string) => {
                         return markR[p];
                     },
-                    authPath: [...routerBase, ...autoPath.children],
+                    authPath: [...routerBase, ...routerDemo, ...autoPath.children],
                 });
             }
         }
