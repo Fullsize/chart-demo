@@ -1,28 +1,28 @@
 <!--
  * @Date: 2023-06-30 15:37:52
- * @LastEditors: zhipengHuang
- * @LastEditTime: 2024-08-26 17:53:32
+ * @LastEditors: Fullsize
+ * @LastEditTime: 2024-11-12 16:04:39
  * @FilePath: /shanxi-economic/index.html
  * @Author: Fullsize
 -->
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>可视化示例</title>
+        <script>
+            document.write(
+                `<script src="${((url = location.origin + location.pathname + 'assets/js/config.js') => {
+                    const timestamp = new Date().getTime();
+                    return `${url}?timestamp=${timestamp}`;
+                })()}"><\/script>`,
+            );
+        </script>
+    </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>山西经济大脑</title>
-  <script>
-    document.write(`<script src="${((url = location.origin+location.pathname+"assets/js/config.js") => {
-      const timestamp = new Date().getTime();
-      return `${url}?timestamp=${timestamp}`;
-    })()}"><\/script>`);
-  </script>
-</head>
-
-<body>
-  <div id="app"></div>
-  <script type="module" src="./src/index.tsx"></script>
-</body>
-
+    <body>
+        <div id="app"></div>
+        <script type="module" src="./src/index.tsx"></script>
+    </body>
 </html>
