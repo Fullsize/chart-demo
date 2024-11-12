@@ -2,7 +2,7 @@
  * @Author: sungy
  * @Date: 2023-08-09 14:32:13
  * @LastEditors: Fullsize
- * @LastEditTime: 2024-11-12 15:28:16
+ * @LastEditTime: 2024-11-12 16:46:02
  * @Description: 导航入口文件
  */
 
@@ -15,7 +15,7 @@ import path from '@/routes/path';
 import GoBack, { useShowGoBack } from './GoBack';
 import useStore from '@/store';
 import NavP2Group from './NavP2Group';
-
+import routerDemo from '@/routes/routerDemo';
 export default function Nav() {
     const location = useLocation();
     const [nav, setNav] = useState<any>();
@@ -30,7 +30,7 @@ export default function Nav() {
         }
 
         const pathArr: any = location.pathname.split('/');
-        const navPath: any = userAuthMenu.getNavByPath('/' + pathArr[1]);
+        const navPath: any = routerDemo;
         const navArr = [
             {
                 name: path[1]?.name ?? '',
