@@ -1,8 +1,8 @@
 /*
  * @Author: sungy
  * @Date: 2023-08-01 14:20:43
- * @LastEditors: sungy
- * @LastEditTime: 2024-08-21 15:34:29
+ * @LastEditors: Fullsize
+ * @LastEditTime: 2024-11-14 14:28:39
  * @Description: Echart 地图入口
  */
 import React, { useEffect, useRef, useState } from 'react';
@@ -10,7 +10,9 @@ import { useDebounce } from 'react-use';
 import { defaultsDeep, cloneDeep } from 'lodash';
 import Loading from './Loading';
 import type { EChartsOption, ECharts, ECElementEvent } from 'echarts';
-
+import a from '@/pages/00-demo/4echars-geomap/content/130000.json';
+import b from '@/pages/00-demo/4echars-geomap/content/300000.json';
+import c from '@/pages/00-demo/4echars-geomap/content/520000.json';
 import {
     registerEchartsMapByApidata,
     tranMapOdLineData,
@@ -252,13 +254,26 @@ function useRegisterMap(geoInfo: { code: number | string; level: number }) {
     }, [geoInfoStr]);
 
     // 地图数据请求后更新数据
+    // useEffect(() => {
+    //     console.log(259, resApi, geoInfo);
+    //     if (resApi.ok) {
+    //         const geojson = resApi?.data?.geojson as FeatureCollection<Geometry, ApiFeatureOriginProperty>;
+    //         registerEchart(geojson);
+    //         mapCache.set(geoInfoStr, geojson);
+    //     }
+    // }, [resApi?.sign]);
     useEffect(() => {
-        if (resApi.ok) {
-            const geojson = resApi?.data?.geojson as FeatureCollection<Geometry, ApiFeatureOriginProperty>;
+        const initJson: any = {
+            '130000': a,
+            '300000': b,
+            '520000': c,
+        };
+        if (initJson[geoInfo?.code]) {
+            const geojson = initJson[geoInfo?.code]?.data?.geojson;
             registerEchart(geojson);
             mapCache.set(geoInfoStr, geojson);
         }
-    }, [resApi?.sign]);
+    }, [geoInfo]);
 
     return [registerMap];
 }
@@ -339,9 +354,9 @@ export const EchartMapGeo: React.FC<PropsWithStyle<EchartMapProps>> = ({
             }
 
             if (geoInfo?.code == 300000) {
-                option['geo'] =  getOptionHbFGWGeoWorld(registerMap?.mapName, mapData, config, registerMap);
+                option['geo'] = getOptionHbFGWGeoWorld(registerMap?.mapName, mapData, config, registerMap);
             } else {
-                option['geo'] =  getOptionGeo(registerMap?.mapName, mapData, config, registerMap);
+                option['geo'] = getOptionGeo(registerMap?.mapName, mapData, config, registerMap);
             }
 
             // 地图区域着色数据处理
