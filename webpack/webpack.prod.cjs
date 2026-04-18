@@ -73,7 +73,7 @@ module.exports = merge(base, {
             filename: 'css/[name].[contenthash].css',
         }),
         new CopyPlugin({
-            patterns: [{ from: 'assets/js', to: 'assets/js' }],
+            patterns: [{ from: 'assets/js', to: 'assets/js' }, { from: 'CNAME', to: 'CNAME' }],
         }),
         progressPlugin,
         new CompressionPlugin({

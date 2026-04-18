@@ -20,6 +20,7 @@ export default defineConfig({
     isProd && viteStaticCopy({
       targets: [
         { src: normalizePath(path.resolve(__dirname, 'assets')), dest: '' },
+        { src: normalizePath(path.resolve(__dirname, 'CNAME')), dest: '' },
       ]
     })
   ].filter(Boolean),
